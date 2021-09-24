@@ -453,6 +453,8 @@ a.tab-label:hover, a.tab-label.active-btn {
 .background{
 	background-image: url('../img/Footer.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	height: auto;
 	width: auto;
 }
