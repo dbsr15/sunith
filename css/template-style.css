@@ -109,8 +109,8 @@ p.logo strong {
 	z-index: 10;
 }
 .item {
-	overflow: hidden;
-	width: 100%;
+	overflow: hidden;/*
+	width: 100%;*/
 }
 .prev-arrow, .next-arrow {
 	background: none repeat scroll 0 0 #00283a;
