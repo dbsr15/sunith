@@ -993,6 +993,9 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   .service-text{
     padding: 0 17%;
      }
+ .latest-blogs {
+    margin: 0px; 
+  }
 
   .grid.margin2x {grid-column-gap: 20px;}
   .l-offset-1,.l-offset-2,.l-offset-five,.l-offset-3,.l-offset-4,.l-offset-5,.l-offset-6,.l-offset-7,.l-offset-8,.l-offset-9,.l-offset-10,.l-offset-11,.l-offset-12,
