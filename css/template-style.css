@@ -702,6 +702,10 @@ footer p, footer a:visited, footer a, footer a:hover {
     top: 0;
     height: 51px;
   }
+.font-size-18{
+	font-size: 16px;
+	color: #f3f3f3;	
+}
 }
 @media screen and (max-width: 768px) {
   .background-image {
