@@ -299,6 +299,9 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   .service-text{
     padding: 0 0.625rem;
      }
+     .contact-padding{
+      padding: 0 2%;
+    }
 }
 .nav-text,.aside-nav-text {display:none;}
 .aside-nav a,.aside-nav a:link,.aside-nav a:visited,.aside-nav li > ul,.top-nav a,.top-nav a:link,.top-nav a:visited {
@@ -810,6 +813,13 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   .grid .xl-row-10 {grid-row:span 10;}
   .grid .xl-row-11 {grid-row:span 11;}
   .grid .xl-row-12 {grid-row:span 12;}  
+  .margin-top {
+    margin-top: 80px;
+  }
+  .contact-padding{
+    padding: 0 25%;
+  }
+
 }
 
 @media screen and (max-width:1140px) {
@@ -916,7 +926,9 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   	z-index:50;
   	padding-top:15px;
   }
- 
+  .margin-top {
+    margin-top: 80px;
+  }
 
   .size-960,.size-1140,.size-1280,.size-1520 {max-width:1140px;}
   .xl-offset-1,.xl-offset-2,.xl-offset-five,.xl-offset-3,.xl-offset-4,.xl-offset-5,.xl-offset-6,.xl-offset-7,.xl-offset-8,.xl-offset-9,.xl-offset-10,.xl-offset-11,.xl-offset-12 {margin-left:0;}
@@ -993,10 +1005,20 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   .service-text{
     padding: 0 17%;
      }
- .latest-blogs {
+
+  .latest-blogs {
     margin: 0px; 
   }
-
+  .margin-top {
+    margin-top: 10px;
+  }
+  .contact-padding{
+    padding: 0 10%;
+  }
+  button{
+    margin: 0 50%;
+    
+  }
   .grid.margin2x {grid-column-gap: 20px;}
   .l-offset-1,.l-offset-2,.l-offset-five,.l-offset-3,.l-offset-4,.l-offset-5,.l-offset-6,.l-offset-7,.l-offset-8,.l-offset-9,.l-offset-10,.l-offset-11,.l-offset-12,
   .xl-offset-1,.xl-offset-2,.xl-offset-five,.xl-offset-3,.xl-offset-4,.xl-offset-5,.xl-offset-6,.xl-offset-7,.xl-offset-8,.xl-offset-9,.xl-offset-10,.xl-offset-11,.xl-offset-12,
@@ -1095,6 +1117,10 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
     margin-left: 50px;
     width: auto;
 
+  }
+  button{
+    margin: 0 10%;
+    
   }
   .aside-nav-text:after {
     content:"\f008";
