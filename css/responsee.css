@@ -299,6 +299,7 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   .service-text{
     padding: 0 0.625rem;
      }
+  
      .contact-padding{
       padding: 0 2%;
     }
@@ -1106,6 +1107,13 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
     max-width:100%;
     padding-right:0.625rem;
     text-align:center;
+  }
+  .contact-padding{
+    padding: 0 !important;
+  }
+  button{
+    margin: 0 5%;
+    
   }
   .service-text{
     padding: 0 0;
