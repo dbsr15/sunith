@@ -161,7 +161,7 @@ p.logo strong {
 }
 #first-block {
 	background: none repeat scroll 0 0 #00283a;
-	padding: 3em 2em;
+	padding: 2em 2em;
 	text-align: center;
 }
 #first-block h1 {
@@ -300,8 +300,7 @@ h2.section-title {
 	font-size: 3.8em;
 	font-weight: 700;
 	letter-spacing: -1px;
-	/*
-	margin: 0 0 1.25em;*/
+	margin-top: 1.25em;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -413,7 +412,7 @@ a.tab-label:hover, a.tab-label.active-btn {
 #latest-news {
 	background: #f3f3f3 none repeat scroll 0 0;
 	box-shadow: 0px -10px 9px -11px rgba(0, 0, 0, 0.5);
-	padding: 6em 2em;
+	padding: 2em 2em;
 	position: relative;
 	z-index: 3;
 }
@@ -450,6 +449,14 @@ a.tab-label:hover, a.tab-label.active-btn {
 #contact {
 	background-color: rgb(22, 21, 21,0.7);
 }
+.footer-1{
+	background-color: #00283a !important;
+	padding:20px 0px;
+	border-bottom: 7px solid #fed211;
+}
+.background {
+    border-bottom: 4px solid #fed211;
+}
 .background{
 	background-image: url('../img/Footer.jpg');
 	background-repeat: no-repeat;
@@ -464,14 +471,21 @@ a.tab-label:hover, a.tab-label.active-btn {
 .margin-10{
 	margin: 10px;
 }
-.font-size-20{
-	font-size: 20px;
-	font-weight: bold;
+.font-size-18{
+	font-size: 18px;
+	color: #f3f3f3;	
+}
+
+.font-family{
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 900;
 }
 #contact input, #contact textarea {
-	background: none repeat scroll 0 0 rgba(250, 248, 248, 0);
+	background: none repeat scroll 0 0 rgba(253, 253, 253, 0);
+	color: white;
 	border-radius: 10px;
 }
+
 form.customform button.color-btn {
 	height: auto;
 	margin-top: 0;
@@ -523,7 +537,30 @@ footer p, footer a:visited, footer a, footer a:hover {
 	font-size: 0.8em;
 }
 
-
+/******Thankyou form********/
+.thankyou{
+	background-image: url('../img/Footer.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: auto;
+}
+.thankyou-background {
+	background-color: rgb(22, 21, 21,0.7);
+	height: 100vh
+}
+.thankyou-background h1{
+	text-align: center;
+	font-size: 70px; 
+	color: white;
+	align-items: center;
+}
+.thankyou-background a{
+	text-align: center;
+	border: 20px rebeccapurple;
+	
+}
 /**** contact social media icons***/
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
@@ -642,6 +679,9 @@ footer p, footer a:visited, footer a, footer a:hover {
   .news-text {
   	height: auto;
   }
+  h2.section-title {
+	margin-top: 0em;
+}
 }
 @media screen and (max-width: 480px) {
   #topbar {
@@ -655,7 +695,7 @@ footer p, footer a:visited, footer a, footer a:hover {
   	text-align: center;
   }
   h2.section-title {
-    font-size: 3em;
+    font-size: 2em;
     line-height: 1.1;
   }
   p.logo {
