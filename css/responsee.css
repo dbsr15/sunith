@@ -900,7 +900,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   	top:60px;
   }
   .service-text{
-    padding: 0 20%;
+    padding: 0 20% !important;
      }
   .nav-text {
     color:#fff;
