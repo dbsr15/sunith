@@ -386,7 +386,7 @@ a.tab-label:hover, a.tab-label.active-btn {
 }
 #services h2 {
 	color: #fff;
-	margin: 0 0 1.25em;
+	margin: 0 0 0.5em;
 }
 #services h2.section-title:after {
 	background: #fff none repeat scroll 0 0;
