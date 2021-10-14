@@ -24,6 +24,15 @@ body {
   background-color: #ffc000; 
 padding: 10px;
 }
+h4.contact-h4:after {
+	background: #ffcd00 none repeat scroll 0 0;
+	content: "";
+	display: block;
+	height: 1px;
+	margin: 0.31225em auto 0;
+	position: relative;
+	width: 100px;
+}
 
 .text-area-background p{
   color: black;
